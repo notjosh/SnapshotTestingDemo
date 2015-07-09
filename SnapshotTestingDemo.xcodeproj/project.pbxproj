@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		42E79AD41B4EEA86001F4E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AD31B4EEA86001F4E01 /* AppDelegate.swift */; };
 		42E79AD61B4EEA86001F4E01 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AD51B4EEA86001F4E01 /* MasterViewController.swift */; };
-		42E79AD81B4EEA86001F4E01 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AD71B4EEA86001F4E01 /* DetailViewController.swift */; };
 		42E79ADB1B4EEA86001F4E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E79AD91B4EEA86001F4E01 /* Main.storyboard */; };
 		42E79ADD1B4EEA86001F4E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E79ADC1B4EEA86001F4E01 /* Assets.xcassets */; };
 		42E79AE01B4EEA86001F4E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E79ADE1B4EEA86001F4E01 /* LaunchScreen.storyboard */; };
 		42E79AEB1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AEA1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift */; };
 		42E79AF61B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AF51B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift */; };
+		42E79B061B4EEF14001F4E01 /* MeasurementStateSelectionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B051B4EEF14001F4E01 /* MeasurementStateSelectionControl.m */; };
+		42E79B0C1B4EEF89001F4E01 /* BWMeasurementIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B091B4EEF89001F4E01 /* BWMeasurementIconView.m */; };
+		42E79B0D1B4EEF89001F4E01 /* BWMeasurementStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B0B1B4EEF89001F4E01 /* BWMeasurementStateButton.m */; };
+		42E79B101B4EEF95001F4E01 /* BWCrossView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B0F1B4EEF95001F4E01 /* BWCrossView.m */; };
+		42E79B141B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B131B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.m */; };
+		42E79B171B4EF000001F4E01 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B161B4EF000001F4E01 /* Geometry.m */; };
+		75F9FDF197B432A076FF37AE /* Pods_SnapshotTestingDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599566A495053BE47BC5ADF6 /* Pods_SnapshotTestingDemoTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		42E79AD01B4EEA86001F4E01 /* SnapshotTestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotTestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E79AD31B4EEA86001F4E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42E79AD51B4EEA86001F4E01 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		42E79AD71B4EEA86001F4E01 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		42E79ADA1B4EEA86001F4E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42E79ADC1B4EEA86001F4E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E79ADF1B4EEA86001F4E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,22 @@
 		42E79AF11B4EEA87001F4E01 /* SnapshotTestingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E79AF51B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingDemoUITests.swift; sourceTree = "<group>"; };
 		42E79AF71B4EEA87001F4E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E79B031B4EEF13001F4E01 /* SnapshotTestingDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapshotTestingDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		42E79B041B4EEF14001F4E01 /* MeasurementStateSelectionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementStateSelectionControl.h; sourceTree = "<group>"; };
+		42E79B051B4EEF14001F4E01 /* MeasurementStateSelectionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementStateSelectionControl.m; sourceTree = "<group>"; };
+		42E79B081B4EEF89001F4E01 /* BWMeasurementIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeasurementIconView.h; sourceTree = "<group>"; };
+		42E79B091B4EEF89001F4E01 /* BWMeasurementIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMeasurementIconView.m; sourceTree = "<group>"; };
+		42E79B0A1B4EEF89001F4E01 /* BWMeasurementStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeasurementStateButton.h; sourceTree = "<group>"; };
+		42E79B0B1B4EEF89001F4E01 /* BWMeasurementStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMeasurementStateButton.m; sourceTree = "<group>"; };
+		42E79B0E1B4EEF95001F4E01 /* BWCrossView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCrossView.h; sourceTree = "<group>"; };
+		42E79B0F1B4EEF95001F4E01 /* BWCrossView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCrossView.m; sourceTree = "<group>"; };
+		42E79B121B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Helpers.h"; sourceTree = "<group>"; };
+		42E79B131B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Helpers.m"; sourceTree = "<group>"; };
+		42E79B151B4EF000001F4E01 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		42E79B161B4EF000001F4E01 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		599566A495053BE47BC5ADF6 /* Pods_SnapshotTestingDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTestingDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D03E7A537F58DE5A7AD28A6 /* Pods-SnapshotTestingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestingDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotTestingDemoTests/Pods-SnapshotTestingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF21077B468FE6D2032854B3 /* Pods-SnapshotTestingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotTestingDemoTests/Pods-SnapshotTestingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F9FDF197B432A076FF37AE /* Pods_SnapshotTestingDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +105,8 @@
 				42E79AE91B4EEA87001F4E01 /* SnapshotTestingDemoTests */,
 				42E79AF41B4EEA87001F4E01 /* SnapshotTestingDemoUITests */,
 				42E79AD11B4EEA86001F4E01 /* Products */,
+				C0BCFA4690BBDB101049D26A /* Pods */,
+				C4C48F4E084B896BBE983502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +123,11 @@
 		42E79AD21B4EEA86001F4E01 /* SnapshotTestingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				42E79B111B4EEFBE001F4E01 /* Util */,
+				42E79B071B4EEF5D001F4E01 /* Views */,
 				42E79AD31B4EEA86001F4E01 /* AppDelegate.swift */,
 				42E79AD51B4EEA86001F4E01 /* MasterViewController.swift */,
-				42E79AD71B4EEA86001F4E01 /* DetailViewController.swift */,
+				42E79B031B4EEF13001F4E01 /* SnapshotTestingDemo-Bridging-Header.h */,
 				42E79AD91B4EEA86001F4E01 /* Main.storyboard */,
 				42E79ADC1B4EEA86001F4E01 /* Assets.xcassets */,
 				42E79ADE1B4EEA86001F4E01 /* LaunchScreen.storyboard */,
@@ -128,6 +154,49 @@
 			path = SnapshotTestingDemoUITests;
 			sourceTree = "<group>";
 		};
+		42E79B071B4EEF5D001F4E01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42E79B0E1B4EEF95001F4E01 /* BWCrossView.h */,
+				42E79B0F1B4EEF95001F4E01 /* BWCrossView.m */,
+				42E79B041B4EEF14001F4E01 /* MeasurementStateSelectionControl.h */,
+				42E79B051B4EEF14001F4E01 /* MeasurementStateSelectionControl.m */,
+				42E79B081B4EEF89001F4E01 /* BWMeasurementIconView.h */,
+				42E79B091B4EEF89001F4E01 /* BWMeasurementIconView.m */,
+				42E79B0A1B4EEF89001F4E01 /* BWMeasurementStateButton.h */,
+				42E79B0B1B4EEF89001F4E01 /* BWMeasurementStateButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42E79B111B4EEFBE001F4E01 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				42E79B151B4EF000001F4E01 /* Geometry.h */,
+				42E79B161B4EF000001F4E01 /* Geometry.m */,
+				42E79B121B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.h */,
+				42E79B131B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C0BCFA4690BBDB101049D26A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF21077B468FE6D2032854B3 /* Pods-SnapshotTestingDemoTests.debug.xcconfig */,
+				5D03E7A537F58DE5A7AD28A6 /* Pods-SnapshotTestingDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4C48F4E084B896BBE983502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599566A495053BE47BC5ADF6 /* Pods_SnapshotTestingDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42E79AFD1B4EEA87001F4E01 /* Build configuration list for PBXNativeTarget "SnapshotTestingDemoTests" */;
 			buildPhases = (
+				9C619BC2A04DF78DCEBFE7DD /* Check Pods Manifest.lock */,
 				42E79AE21B4EEA87001F4E01 /* Sources */,
 				42E79AE31B4EEA87001F4E01 /* Frameworks */,
 				42E79AE41B4EEA87001F4E01 /* Resources */,
+				880BF877BB79116165ACC062 /* Embed Pods Frameworks */,
+				25014C2A7481CB610C787F55 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +262,8 @@
 		42E79AC81B4EEA86001F4E01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "notjosh, inc";
 				TargetAttributes = {
@@ -253,14 +327,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25014C2A7481CB610C787F55 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapshotTestingDemoTests/Pods-SnapshotTestingDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880BF877BB79116165ACC062 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapshotTestingDemoTests/Pods-SnapshotTestingDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C619BC2A04DF78DCEBFE7DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42E79ACC1B4EEA86001F4E01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42E79AD81B4EEA86001F4E01 /* DetailViewController.swift in Sources */,
+				42E79B171B4EF000001F4E01 /* Geometry.m in Sources */,
+				42E79B0C1B4EEF89001F4E01 /* BWMeasurementIconView.m in Sources */,
 				42E79AD61B4EEA86001F4E01 /* MasterViewController.swift in Sources */,
+				42E79B0D1B4EEF89001F4E01 /* BWMeasurementStateButton.m in Sources */,
 				42E79AD41B4EEA86001F4E01 /* AppDelegate.swift in Sources */,
+				42E79B061B4EEF14001F4E01 /* MeasurementStateSelectionControl.m in Sources */,
+				42E79B101B4EEF95001F4E01 /* BWCrossView.m in Sources */,
+				42E79B141B4EEFDB001F4E01 /* NSLayoutConstraint+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +527,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SnapshotTestingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.SnapshotTestingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapshotTestingDemo/SnapshotTestingDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,15 +541,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SnapshotTestingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.SnapshotTestingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapshotTestingDemo/SnapshotTestingDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		42E79AFE1B4EEA87001F4E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF21077B468FE6D2032854B3 /* Pods-SnapshotTestingDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SnapshotTestingDemoTests/Info.plist;
@@ -432,6 +565,7 @@
 		};
 		42E79AFF1B4EEA87001F4E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D03E7A537F58DE5A7AD28A6 /* Pods-SnapshotTestingDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SnapshotTestingDemoTests/Info.plist;
@@ -485,6 +619,7 @@
 				42E79AFC1B4EEA87001F4E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E79AFD1B4EEA87001F4E01 /* Build configuration list for PBXNativeTarget "SnapshotTestingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +628,7 @@
 				42E79AFF1B4EEA87001F4E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E79B001B4EEA87001F4E01 /* Build configuration list for PBXNativeTarget "SnapshotTestingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +637,7 @@
 				42E79B021B4EEA87001F4E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

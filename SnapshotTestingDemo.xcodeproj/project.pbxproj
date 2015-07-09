@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426B0B941B4F083700421530 /* UIKitSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426B0B931B4F083700421530 /* UIKitSpec.swift */; };
+		428BB13E1B4F0E6300EFA1B1 /* BWIconViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BB13D1B4F0E6300EFA1B1 /* BWIconViewSpec.swift */; };
+		428BB1401B4F111700EFA1B1 /* BWButtonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BB13F1B4F111700EFA1B1 /* BWButtonSpec.swift */; };
+		428BB1421B4F127200EFA1B1 /* BWStateSelectionControlSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BB1411B4F127200EFA1B1 /* BWStateSelectionControlSpec.swift */; };
 		42E79AD41B4EEA86001F4E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AD31B4EEA86001F4E01 /* AppDelegate.swift */; };
 		42E79AD61B4EEA86001F4E01 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AD51B4EEA86001F4E01 /* MasterViewController.swift */; };
 		42E79ADB1B4EEA86001F4E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E79AD91B4EEA86001F4E01 /* Main.storyboard */; };
 		42E79ADD1B4EEA86001F4E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E79ADC1B4EEA86001F4E01 /* Assets.xcassets */; };
 		42E79AE01B4EEA86001F4E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E79ADE1B4EEA86001F4E01 /* LaunchScreen.storyboard */; };
-		42E79AEB1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AEA1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift */; };
 		42E79AF61B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79AF51B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift */; };
 		42E79B061B4EEF14001F4E01 /* MeasurementStateSelectionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B051B4EEF14001F4E01 /* MeasurementStateSelectionControl.m */; };
 		42E79B0C1B4EEF89001F4E01 /* BWMeasurementIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E79B091B4EEF89001F4E01 /* BWMeasurementIconView.m */; };
@@ -41,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		426B0B931B4F083700421530 /* UIKitSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitSpec.swift; sourceTree = "<group>"; };
+		428BB13D1B4F0E6300EFA1B1 /* BWIconViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWIconViewSpec.swift; sourceTree = "<group>"; };
+		428BB13F1B4F111700EFA1B1 /* BWButtonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWButtonSpec.swift; sourceTree = "<group>"; };
+		428BB1411B4F127200EFA1B1 /* BWStateSelectionControlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWStateSelectionControlSpec.swift; sourceTree = "<group>"; };
 		42E79AD01B4EEA86001F4E01 /* SnapshotTestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotTestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E79AD31B4EEA86001F4E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42E79AD51B4EEA86001F4E01 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		42E79ADF1B4EEA86001F4E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42E79AE11B4EEA86001F4E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E79AE61B4EEA87001F4E01 /* SnapshotTestingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42E79AEA1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingDemoTests.swift; sourceTree = "<group>"; };
 		42E79AEC1B4EEA87001F4E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E79AF11B4EEA87001F4E01 /* SnapshotTestingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E79AF51B4EEA87001F4E01 /* SnapshotTestingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingDemoUITests.swift; sourceTree = "<group>"; };
@@ -139,8 +145,11 @@
 		42E79AE91B4EEA87001F4E01 /* SnapshotTestingDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				42E79AEA1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift */,
 				42E79AEC1B4EEA87001F4E01 /* Info.plist */,
+				426B0B931B4F083700421530 /* UIKitSpec.swift */,
+				428BB13D1B4F0E6300EFA1B1 /* BWIconViewSpec.swift */,
+				428BB13F1B4F111700EFA1B1 /* BWButtonSpec.swift */,
+				428BB1411B4F127200EFA1B1 /* BWStateSelectionControlSpec.swift */,
 			);
 			path = SnapshotTestingDemoTests;
 			sourceTree = "<group>";
@@ -395,7 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42E79AEB1B4EEA87001F4E01 /* SnapshotTestingDemoTests.swift in Sources */,
+				428BB1421B4F127200EFA1B1 /* BWStateSelectionControlSpec.swift in Sources */,
+				428BB1401B4F111700EFA1B1 /* BWButtonSpec.swift in Sources */,
+				426B0B941B4F083700421530 /* UIKitSpec.swift in Sources */,
+				428BB13E1B4F0E6300EFA1B1 /* BWIconViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.SnapshotTestingDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapshotTestingDemo/SnapshotTestingDemo-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotTestingDemo.app/SnapshotTestingDemo";
 			};
 			name = Debug;
@@ -572,6 +585,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.SnapshotTestingDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapshotTestingDemo/SnapshotTestingDemo-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapshotTestingDemo.app/SnapshotTestingDemo";
 			};
 			name = Release;

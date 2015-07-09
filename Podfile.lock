@@ -1,0 +1,30 @@
+PODS:
+  - FBSnapshotTestCase (1.8.1)
+  - Nimble (2.0.0-rc.1)
+  - Nimble-Snapshots (0.4.0):
+    - FBSnapshotTestCase (~> 1.7)
+    - Nimble (~> 2.0.0-rc.1)
+    - Quick (~> 0.4.0)
+  - Quick (0.4.0)
+
+DEPENDENCIES:
+  - Nimble-Snapshots (from `https://github.com/pjenkins-cc/Nimble-Snapshots.git`,
+    branch `swift-2.0`)
+
+EXTERNAL SOURCES:
+  Nimble-Snapshots:
+    :branch: swift-2.0
+    :git: https://github.com/pjenkins-cc/Nimble-Snapshots.git
+
+CHECKOUT OPTIONS:
+  Nimble-Snapshots:
+    :commit: a6d7a0ddf90ee68d7ee20d76300880391d82ee7f
+    :git: https://github.com/pjenkins-cc/Nimble-Snapshots.git
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  Nimble: 9572458605e65c9fc5a56754ab19a970f6ab5a88
+  Nimble-Snapshots: ca3fbf1e9e85cc5c4fdb4424476afd7c554d56bd
+  Quick: 2286bfff349102670c6d2dafd0d2cefab42f5f0b
+
+COCOAPODS: 0.37.2
